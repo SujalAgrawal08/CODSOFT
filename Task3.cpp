@@ -21,7 +21,6 @@ void displayBoard(const vector<vector<char>>&board ){
     cout<<endl;
 }
 void play(vector<vector<char>>&board, char move){
-    //Input //board[i][j] //display // switch player
     int row, col;
     bool validMove = false;
     do {
